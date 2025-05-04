@@ -26,5 +26,41 @@ const element = <h1>Hello!</h1>;
 
 code will be translated into normal js by BABEL
 
+//-----------------------------
+1. What is React?
+A JavaScript library for building user interfaces.
+Developed and maintained by Meta (Facebook).
+Component-based, Declarative, and Efficient.
 
+2. Core Concepts
+JSX: JavaScript + XML syntax.
+Component: Reusable UI block.
+Functional (with Hooks) and Class-based components.
+Props: Read-only data passed to components.
+State: Mutable data managed inside a component.
+
+3. Hooks (for Functional Components)
+useState() – for state.
+useEffect() – for side effects (API calls, timers).
+useContext() – for global state.
+
+4. Component Lifecycle (Class-based)
+componentDidMount(), componentDidUpdate(), componentWillUnmount()
+
+5. Virtual DOM
+React uses a virtual DOM to update UI efficiently.
+Only updates the parts that changed.
+
+6. React Router
+For SPA (Single Page Application) navigation.
+Example: <BrowserRouter>, <Route>, <Link>.
+
+7. State Management
+Local State – useState
+Global State – Context API, Redux, Zustand, etc.
+
+8. Common Packages
+react-router-dom – Routing
+axios or fetch – API calls
+formik or react-hook-form – Form handling
 
