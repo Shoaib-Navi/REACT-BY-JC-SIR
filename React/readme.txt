@@ -64,3 +64,36 @@ react-router-dom – Routing
 axios or fetch – API calls
 formik or react-hook-form – Form handling
 
+9. Styling in React
+CSS Modules – Scoped CSS files to avoid conflicts.
+Styled Components – CSS-in-JS for dynamic styling.
+Tailwind CSS – Utility-first CSS framework for fast UI development.
+Inline Styles – Style applied directly via the style prop (as an object).
+
+10. Forms in React
+Controlled Components – Form elements controlled by state (value and onChange).
+Uncontrolled Components – Use ref to access values directly.
+Form Libraries – react-hook-form, formik for easier form state and validation.
+
+11. Performance Optimization
+React.memo – Prevent re-render if props don’t change.
+useMemo – Memoize expensive calculations.
+useCallback – Memoize functions to avoid unnecessary re-renders.
+Code Splitting – Use React.lazy and Suspense for dynamic imports.
+
+12. Error Handling
+Error Boundaries (Class Components) – Catch JavaScript errors using componentDidCatch.
+try/catch – For API calls or logic in async/await.
+Fallback UI – Use conditional rendering or loading/error components.
+
+13. Testing React Apps
+Jest – JavaScript testing framework.
+React Testing Library (RTL) – Testing React components by mimicking user interaction.
+Enzyme (deprecated) – Previously used for component testing.
+
+14. Deployment
+Build Tool – npm run build generates optimized static files.
+Hosting Options –
+Vercel / Netlify – For React frontends.
+Firebase / GitHub Pages – Easy to use for static hosting.
+Custom Server (Node.js / Express) – Serve React build folder.
