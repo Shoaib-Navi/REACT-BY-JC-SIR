@@ -1,5 +1,9 @@
 //rfc for creating component----
+//impt for propTypes
+
 import React from 'react'
+import PropTypes from 'prop-types'
+
 
 export default function Header(props) {
   return (
@@ -31,3 +35,18 @@ export default function Header(props) {
 </nav>
   )
 }
+
+// //isRequired for compulsion
+// Navbar.propTypes = {
+//   title: propTypes.string,
+//   aboutText: propTypes.string
+// }
+
+// Navbar.defaultProps = {
+//   title:"set title here",
+//   aboutText: "set about text here.",
+//   searchBar:false
+// }
+
+
+// export default function Navbar
