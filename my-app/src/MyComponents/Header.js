@@ -1,6 +1,7 @@
 //rfc for creating component----
 //RFC stand for React Functional Component
 //impt for propTypes
+//rfc is a shorthand/snippet trigger used in VS Code (with the ES7+ React/Redux Snippets extension).
 
 import React from 'react'
 import PropTypes from 'prop-types'
