@@ -1,4 +1,5 @@
 //rfc for creating component----
+//RFC stand for React Functional Component
 //impt for propTypes
 
 import React from 'react'
