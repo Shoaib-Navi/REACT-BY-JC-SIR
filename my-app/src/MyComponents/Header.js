@@ -9,6 +9,12 @@
 // rcc	React Class Component
 // redux	Redux boilerplate
 
+
+
+//  Component Types
+// Functional Component	Simple JS function. Uses hooks. Preferred in modern React.
+// Class Component	Uses class, this, and lifecycle methods. Older approach.
+
 import React from 'react'
 import PropTypes from 'prop-types'
 
